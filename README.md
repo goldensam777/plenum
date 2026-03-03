@@ -160,11 +160,11 @@ Dans le Plenum, Samuel est le **métronome central** : il convoque le débat, ar
 - [x] `agents/deepseek.py` — API DeepSeek
 - [x] `agents/chatgpt.py` — API OpenAI
 - [x] `agents/kimi.py` — API Moonshot
-- [ ] `core/memory.py` — historique persistant
-- [ ] `core/display.py` — grille terminal
-- [ ] `main.py` — assemblage final
-- [ ] Export session JSON
-- [ ] Interface TUI (rich/textual)
+- [x] `core/memory.py` — historique persistant
+- [x] `core/display.py` — grille terminal
+- [x] `main.py` — assemblage final
+- [x] Export session JSON
+- [x] Interface TUI (rich/textual)
 - [ ] Intégration OS-IA
 
 ---
