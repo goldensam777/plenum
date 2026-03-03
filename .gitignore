@@ -3,3 +3,9 @@ api.txt
 sessions/
 __pycache__/
 *.pyc
+agents/__pycache__/
+agents/*.pyc
+core/__pycache__/
+core/*.pyc
+sessions/__pycache__/
+sessions/*.pyc
