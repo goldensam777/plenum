@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plenum — Salon Multi-IA</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+  <!-- ── En-tête ── -->
+  <header>
+    <div class="header-left">
+      <h1>Plenum</h1>
+      <span class="subtitle">Salon Multi-IA</span>
+    </div>
+    <div class="header-right">
+      <span id="turn-counter" class="turn-counter">Tour 0</span>
+      <button id="btn-menu" class="btn-icon" title="Menu" aria-label="Menu">⋮</button>
+    </div>
+  </header>
+
+  <!-- ── Menu contextuel ── -->
+  <div id="menu" class="menu hidden">
+    <button id="btn-reset">↺ Réinitialiser la session</button>
+    <button id="btn-export">↓ Exporter la session</button>
+    <button id="btn-sessions">☰ Sessions sauvegardées</button>
+    <button id="btn-status">◉ État des agents</button>
+  </div>
+
+  <!-- ── Zone principale ── -->
+  <main id="main">
+
+    <!-- Écran d'accueil (affiché tant qu'il n'y a pas de tour) -->
+    <div id="welcome">
+      <div class="welcome-logo">⬡</div>
+      <h2>Bienvenue dans le Plenum</h2>
+      <p>Cinq intelligences artificielles vous répondent simultanément.<br>
+         Commencez par écrire un message ci-dessous.</p>
+      <div id="agent-pills"></div>
+    </div>
+
+    <!-- Historique des tours -->
+    <div id="history"></div>
+
+  </main>
+
+  <!-- ── Zone de saisie (fixée en bas) ── -->
+  <footer>
+    <form id="chat-form">
+      <textarea
+        id="input"
+        placeholder="Écris ton message…"
+        rows="1"
+        autofocus
+      ></textarea>
+      <button type="submit" id="btn-send" title="Envoyer">
+        <span class="send-icon">➤</span>
+      </button>
+    </form>
+  </footer>
+
+  <!-- ── Modal sessions ── -->
+  <div id="modal-overlay" class="hidden">
+    <div id="modal">
+      <div class="modal-header">
+        <h3 id="modal-title">Sessions sauvegardées</h3>
+        <button id="modal-close">✕</button>
+      </div>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

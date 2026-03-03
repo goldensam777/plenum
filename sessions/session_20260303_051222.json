@@ -1,0 +1,19 @@
+{
+  "name": "session_20260303_051222",
+  "saved_at": "2026-03-03T05:12:22.679511",
+  "message_count": 2,
+  "history": [
+    {
+      "role": "user",
+      "agent": "samuel",
+      "content": "Je suis dans la semaine d'aspiration de connaissances. Mais j'aimerais connaître les actualités",
+      "timestamp": 1772510538.4294338
+    },
+    {
+      "role": "assistant",
+      "agent": "claude",
+      "content": "# Actualités Tech & IA — Juin 2025\n\nSamuel, je comprends ta curiosité. Voici ce que je peux te donner comme cadre, avec une nuance importante d'abord :\n\n## ⚠️ Ma limite\nMa connaissance a une date de coupure (début avril 2025). Je ne peux pas te donner les actualités *de cette semaine* en temps réel. **ChatGPT avec browsing, Gemini ou DeepSeek avec accès web** seront plus fiables sur ce point précis dans le Plenum.\n\nCela dit, voici les **tendances majeures** que tu dois surveiller :\n\n---\n\n## 🔥 Ce qui était brûlant fin mars / début avril 2025\n\n**1. Modèles IA**\n- **Claude 3.5 Opus / Sonnet** — Anthropic pousse sur le raisonnement long\n- **GPT-4o et successeurs** — OpenAI intensifie le multimodal\n- **Gemini 2.0** — Google intègre profondément dans Android/Search\n- **Llama 4** de Meta — open source qui bouscule tout\n- **DeepSeek-V3** — la Chine qui rivalise à coût réduit\n\n**2. OS & Edge AI**\n- L'IA embarquée sur appareils (on-device) explose — directement lié à ton projet IoT\n- Apple, Google, Qualcomm poussent les NPU (Neural Processing Units)\n- **Linux + IA locale** devient un vrai mouvement\n\n**3. Réglementation**\n- L'**EU AI Act** entre en application progressive\n- Débats sur l'IA autonome et la souveraineté des données\n\n**4. IoT**\n- **Matter 1.4** — standard d'interopérabilité domotique\n- Convergence IA + Edge + IoT = exactement ton terrain\n\n---\n\n## 🎯 Ce que je te recommande pour ta semaine d'aspiration\n\nPlutôt que de \"suivre l'actu\" passivement, **aspire stratégiquement** :\n\n| Source | Pourquoi |\n|--------|----------|\n| **Hacker News** (news.ycombinator.com) | Le pouls des builders |\n| **ArXiv (cs.OS, cs.AI)** | Papers fondamentaux |\n| **The Verge / Ars Technica** | Synthèses tech accessibles |\n| **Simon Willison's blog** | Meilleur commentateur IA pratique |\n| **r/LocalLLaMA** | Communauté IA embarquée/locale |\n\n---\n\n## 💡 Conseil Plenum\n\nDemande aux autres IA du Plenum (surtout celles avec accès web) :\n\n> *\"Quelles sont les 5 actualités tech/IA les plus importantes de cette semaine de juin 2025 ?\"*\n\nTu auras du temps réel que je ne peux pas te fournir.\n\nEt surtout : **l'aspiration de connaissances n'est pas la consommation d'actualités**. Les actualités te donnent le *contexte*. Les fondamentaux te donnent le *pouvoir*. Ne confonds pas les deux. 🧠\n\nQu'est-ce qui t'intéresse le plus dans ces tendances ?",
+      "timestamp": 1772510559.5305219
+    }
+  ]
+}
